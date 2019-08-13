@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Handout</title>
+<title>index</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="highlight.css">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -14,13 +14,16 @@
 <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
-<article>
+<article><pre><code class="python">import handout
+doc = handout.Handout('handout_output/index','index')</code></pre>
+<div class="markdown">---
 
-<div class="markdown"># pycharm demo</div>
-<div class="markdown">## 使用 handout 处理</div>
-<div class="markdown">代码如下所示：</div>
+# index.py</div>
 <pre><code class="python">print('hello, world!')</code></pre>
-<div class="markdown">在控制台打印输出：`hello, world!`</div>
+<div class="markdown">domkn @ 2019-08-13
+
+---</div>
+<pre><code class="python">doc.show()</code></pre>
 </article>
 </body>
 </html>

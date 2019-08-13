@@ -24,7 +24,7 @@
         {
             "label": "python",
             "type": "shell",
-            "command": "/anaconda3/envs/env37/bin/python",
+            "command": "C:\\ProgramData\\Anaconda3\\python.exe",
             "args": [
                 "${file}"
             ],
