@@ -1,7 +1,6 @@
 {
     "version": "2.0.0",
-    "tasks": [
-        {
+    "tasks": [{
             "label": "kotlin",
             "type": "shell",
             "command": "kotlinc ${file} -include-runtime -d ${fileBasenameNoExtension}.jar && java -jar ${fileBasenameNoExtension}.jar",
@@ -24,7 +23,7 @@
         {
             "label": "python",
             "type": "shell",
-            "command": "C:\\ProgramData\\Anaconda3\\python.exe",
+            "command": "/anaconda3/bin/python",
             "args": [
                 "${file}"
             ],

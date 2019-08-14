@@ -1,4 +1,16 @@
 {
-    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
-    "python.dataScience.jupyterServerURI": "local"
+    "python.pythonPath": "/anaconda3/bin/python",
+    "python.dataScience.jupyterServerURI": "local",
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 30,
+            "database": "mysql",
+            "dialect": "MySQL",
+            "name": "mysql_connection",
+            "password": "588400",
+            "port": 3306,
+            "server": "127.0.0.1",
+            "username": "root"
+        }
+    ]
 }
