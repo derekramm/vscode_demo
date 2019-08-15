@@ -3,6 +3,7 @@
     "python.dataScience.jupyterServerURI": "local",
     "sqltools.connections": [
         {
+            "askForPassword": false,
             "connectionTimeout": 30,
             "database": "mysql",
             "dialect": "MySQL",
