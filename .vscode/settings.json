@@ -1,4 +1,5 @@
 {
     "python.pythonPath": "/Users/domkn/local/projects/vscode/vscode_demo/venv37/bin/python3.7",
     "python.dataScience.jupyterServerURI": "local",
+    "git.ignoreLimitWarning": true,
 }
