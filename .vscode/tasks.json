@@ -23,7 +23,7 @@
         {
             "label": "python",
             "type": "shell",
-            "command": "/anaconda3/bin/python",
+            "command": "/Users/domkn/local/projects/vscode/vscode_demo/venv37/bin/python3.7",
             "args": [
                 "${file}"
             ],
